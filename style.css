@@ -14,12 +14,46 @@
     --display-bg: #424242;
     --button-bg: #b4b4b4;
     --top-border-bg: #424242;
-    --top-border-button-bg: #383838;
+    --top-border-button-bg: #303030;
+    --button-active-bg: #4e4e4e;
 }
 
 * {
     transition: background-color .2s, color .2s;
 }
+
+@media (max-width: 600px) {
+    /* mobile styles go here */
+    .calculator {
+        width: 100%;
+        max-width: 450px;
+        margin: 20px auto;
+    }
+
+    .display {
+        font-size: 32px;
+        padding: 25px;
+    }
+
+    .buttons button {
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .header button {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
 
 body {
     background-color: var(--bg);
@@ -79,4 +113,7 @@ button {
 
 button:active {
     background-color: var(--button-active-bg);
+}
+button:hover {
+    filter: brightness(0.95);
 }
