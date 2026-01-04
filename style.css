@@ -89,6 +89,9 @@ button:hover {
 
 @media (max-width: 600px) {
     /* mobile styles go here */
+    body {
+        background: #000;
+    }
     .calculator {
         width: 100%;
         max-width: 450px;
