@@ -2,7 +2,6 @@ const display = document.getElementById("display");
 let current = "";
 
 document.querySelectorAll(".buttons button").forEach(btn => {
-    btn.addEventListener("touchstart", () => handleClick(btn.dataset.value));
     btn.addEventListener("click", () => handleClick(btn.dataset.value));
 });
 
