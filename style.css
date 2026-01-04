@@ -32,7 +32,7 @@ body {
     background-color: var(--top-border-bg);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
     border-radius: 10px;
 } 
@@ -119,5 +119,4 @@ button:hover {
         padding: 15px;
         font-size: 20px;
     }
-
 }
