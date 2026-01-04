@@ -22,38 +22,6 @@
     transition: background-color .2s, color .2s;
 }
 
-@media (max-width: 600px) {
-    /* mobile styles go here */
-    .calculator {
-        width: 100%;
-        max-width: 450px;
-        margin: 20px auto;
-    }
-
-    .display {
-        font-size: 32px;
-        padding: 25px;
-    }
-
-    .buttons button {
-        padding: 25px;
-        font-size: 20px;
-    }
-
-    .header {
-        padding: 15px;
-    }
-
-    .header button {
-        padding: 15px;
-        font-size: 20px;
-    }
-
-}
-
-
-
-
 
 body {
     background-color: var(--bg);
@@ -116,4 +84,34 @@ button:active {
 }
 button:hover {
     filter: brightness(0.95);
+}
+
+
+@media (max-width: 600px) {
+    /* mobile styles go here */
+    .calculator {
+        width: 100%;
+        max-width: 450px;
+        margin: 20px auto;
+    }
+
+    .display {
+        font-size: 32px;
+        padding: 25px;
+    }
+
+    .buttons button {
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .header button {
+        padding: 15px;
+        font-size: 20px;
+    }
+
 }
