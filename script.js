@@ -20,3 +20,6 @@ function handleClick(value) {
     current += value;
     display.textContent = current;
 }
+function toggledark() {
+    document.body.classList.toggle("dark");
+}
