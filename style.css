@@ -30,17 +30,17 @@ body {
 
 .header {
     background-color: var(--top-border-bg);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
     border-radius: 10px;
 } 
 
-.header button {
-    justify-self: end;
+.header-buttons button{
     background-color: var(--top-border-button-bg);
     color:  var(--text);
+    gap: 10px; 
 }
 
 .calculator {
