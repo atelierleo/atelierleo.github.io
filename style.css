@@ -7,9 +7,7 @@
     --top-border-button-bg: #e9e9e9;
     --button-active-bg: #ccc;
 }
-* {
-    transition: background-color .2s, color .2s;
-}
+
 .dark {
     --bg: #1a1a1a;
     --text: #fff;
@@ -17,6 +15,10 @@
     --button-bg: #b4b4b4;
     --top-border-bg: #424242;
     --top-border-button-bg: #383838;
+}
+
+* {
+    transition: background-color .2s, color .2s;
 }
 
 body {
