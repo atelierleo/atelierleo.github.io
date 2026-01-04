@@ -37,6 +37,13 @@ body {
     border-radius: 10px;
 } 
 
+.header-buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+
+}
+
 .header-buttons button{
     background-color: var(--top-border-button-bg);
     color:  var(--text);
