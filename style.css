@@ -2,9 +2,22 @@
     background-color: #1a1a1a;
     color: white;
 }
-
+.dark #display{
+    background-color: #424242;
+    color: white;
+}
+.dark .buttons button{
+    background-color: #b4b4b4;
+}
+.dark .top-border {
+    background-color: #424242;  
+}
+.dark .top-border button {
+    background-color: #2c2c2c;
+    color: white;
+}
 .top-border {
-    background: #f5f5f5;
+    background-color: #f5f5f5;
     display: grid;
     grid-template-columns: repeat(2, 1fr) ;
     padding: 10px;
@@ -19,7 +32,7 @@
     width: auto;
     border-radius: 5px;
     justify-self: end;
-    background: #ececec;
+    background-color: #ececec;
     cursor: pointer;
     touch-action: manipulation;
 }
@@ -31,8 +44,8 @@
 }
 
 #display {
-    background: #222;
-    color: white;
+    background: #e7e7e7;
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 24px;
     text-align: right;
@@ -50,7 +63,7 @@
     padding: 20px;
     font-size: 18px;
     border: none;
-    background: #ececec;
+    background-color: #ececec;
     border-radius: 5px;
     cursor: pointer;
     touch-action: manipulation;
