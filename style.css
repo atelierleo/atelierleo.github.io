@@ -27,6 +27,7 @@ button {
     background: #eee;
     border-radius: 5px;
     cursor: pointer;
+    touch-action: manipulation;
 }
 
 button:active {
