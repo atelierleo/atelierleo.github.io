@@ -39,7 +39,7 @@ body {
 
 .header-buttons {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 
 }
@@ -115,8 +115,7 @@ button:hover {
         padding: 15px;
     }
 
-    .header button {
-        padding: 15px;
-        font-size: 20px;
+    .header-buttons {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
