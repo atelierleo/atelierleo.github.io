@@ -59,8 +59,3 @@
 button:active {
     background: #ccc;
 }
-
-.dark {
-    background-color: black;
-    color: white;
-}
