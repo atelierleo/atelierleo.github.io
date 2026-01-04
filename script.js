@@ -1,5 +1,10 @@
 const display = document.getElementById("display");
+const savedtheme = localStorage.getItem("theme")
 let current = "";
+
+if (savedtheme == "dark") {
+    document.body.classList.toggle("dark")
+}
 
 document.querySelectorAll(".buttons button").forEach(btn => {
     btn.addEventListener("click", () => handleClick(btn.dataset.value));
@@ -20,6 +25,16 @@ function handleClick(value) {
     current += value;
     display.textContent = current;
 }
-function toggledark() {
+function changeTheme() {
     document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+    } else {
+    localStorage.setItem("theme", "light");
+    }
+}
+
+function clearData() {
+    localStorage.clear()
 }
