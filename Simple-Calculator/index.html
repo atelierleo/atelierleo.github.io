@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="../assets/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Calculatrice</h1>
+            <div class="header-buttons">
+                <a href="../index.html"><button>Home</button></a>
+                <button onclick="changeTheme()">Thème</button>
+                
+            </div>
+        </div>
+        <div class="calculator">
+            <div id="display" class="display">0</div>
+            <div class="buttons">
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button data-value="/">/</button>
+
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="6">6</button>
+                <button data-value="*">*</button>
+
+                <button data-value="1">1</button>
+                <button data-value="2">2</button>
+                <button data-value="3">3</button>
+                <button data-value="-">-</button>
+
+                <button data-value="0">0</button>
+                <button data-value=".">.</button>
+                <button data-value="=">=</button>
+                <button data-value="+">+</button>
+            </div>
+        </div>
+    </body>
+</html>
